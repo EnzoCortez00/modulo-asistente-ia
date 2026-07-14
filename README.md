@@ -28,8 +28,18 @@
 * **Día 1:** Se logró configurar exitosamente el entorno `.venv` y se realizó el primer commit en la rama principal aislando las dependencias (`.gitignore`).
 * **Día 2 (Simulación):** Se ejecutó el script base. El agente generó la estructura solicitada sin errores de sintaxis. 
 * **Captura de evidencia:** *(Insertar aquí captura de pantalla de la terminal mostrando el entorno activado o la prueba del navegador exitosa)*.
-## 🌳 Árbol de Contexto (Organización del Proyecto)
 
+## 📅 Planificación y Sincronización (Google Calendar)
+Para coordinar las entregas del equipo y sincronizar las fases de desarrollo del Módulo Asistente IA, se programó un hito clave utilizando Google Calendar:
+
+* **Evento:** Sprint Review: Entrega Prototipo Asistente Clima (Proyecto Asist)
+* **Objetivo:** Realizar la demostración técnica del prototipo con la API de clima integrada y validar el uso seguro del archivo de variables de entorno (`.env`).
+* **Sincronización:** Se añadieron colaboradores al evento para simular la dinámica ágil de desarrollo y asegurar que las pruebas de navegador se coordinen en simultáneo.
+
+*Captura de planificación:*
+![Evidencia de Calendario](evidencia_calendario.png)
+
+## 🌳 Árbol de Contexto (Organización del Proyecto)
 Para que el Agente de IA (autocompletado del editor) comprenda la estructura del proyecto y sus dependencias de forma eficiente, se organizó el entorno de desarrollo estableciendo el siguiente árbol de contexto:
 
 ```text
