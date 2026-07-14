@@ -28,3 +28,16 @@
 * **Día 1:** Se logró configurar exitosamente el entorno `.venv` y se realizó el primer commit en la rama principal aislando las dependencias (`.gitignore`).
 * **Día 2 (Simulación):** Se ejecutó el script base. El agente generó la estructura solicitada sin errores de sintaxis. 
 * **Captura de evidencia:** *(Insertar aquí captura de pantalla de la terminal mostrando el entorno activado o la prueba del navegador exitosa)*.
+## 🌳 Árbol de Contexto (Organización del Proyecto)
+
+Para que el Agente de IA (autocompletado del editor) comprenda la estructura del proyecto y sus dependencias de forma eficiente, se organizó el entorno de desarrollo estableciendo el siguiente árbol de contexto:
+
+```text
+Modulo_Asistente_IA/
+├── .venv/               # Entorno virtual aislado (Excluido en .gitignore)
+├── .env                 # Variables de entorno seguras (API Keys, Secret Key)
+├── Asist_app/           # Aplicación principal del asistente (Vistas y lógica)
+├── modulo_asist_IA/     # Configuración global del proyecto Django
+├── .gitignore           # Reglas de exclusión para el repositorio
+├── manage.py            # Gestor de línea de comandos del framework
+└── README.md            # Documentación y plan de implementación     
